@@ -1,2 +1,2 @@
 # countries-api
- practicing GET, React, Node, Express, concepts & technologies
+ Using GET, React, Node, Express, concepts & technologies
