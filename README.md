@@ -1,2 +1,2 @@
 # countries-api
- practising second level of RESTful maturity
+ practicing GET, React, Node, Express, concepts & technologies
