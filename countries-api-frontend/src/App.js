@@ -9,7 +9,7 @@ const App = () => {
 
   const [filteredCountries, setFilteredCountries] = useState([])
   const [allCountries, setAllCountries] = useState([])
-  const [keyword, setKeyword] = useState("Sri Lanka")
+  const [keyword, setKeyword] = useState("")
   
   //fetch data from API
   useEffect(() => {
