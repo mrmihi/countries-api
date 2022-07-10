@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+:root{
+
+}
+body{
+    background-color: #333;
+    color: #ffffff;
+    font-family: monospace;
+    font-family: 'Roboto Condensed', sans-serif
+}
+
+.search {
+    height: 20vh;
+    margin: auto;
+    text-align: center;
+}
+
+.input {
+    background-color: #000000;
+    color: #ffffff;
+    border: 0.2rem solid #fff;
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #bc13fe,
+            0 0 0.8rem #bc13fe,
+            0 0 2.8rem #bc13fe,
+            inset 0 0 1.3rem #bc13fe;
+
+    margin-top: 10vh;
+    border-radius: 100vh;
+    height: 2rem;
+    width: 40vw;
+    padding-left: 2rem;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.results {
+    list-style-type: "🌍";
+    list-style-position: inside;
+    margin: auto;
+    text-align: center;
+    width:40vw;
+    background-color: #000000;
+    border-radius: 1rem; 
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.result-item {
+    border-bottom: 1px solid #fff;
+    padding: 1rem 1rem;
+}
+
+.result-item:hover {
+    background-color: #ffffff;
+    color: #000000;
+    transition: all 0.5s ease-in-out 0s;
+}
+.result-item:last-child {
+    border-bottom:0px;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.result-item:first-child{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.country{
+    display: flex;
+    flex-direction:row;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+    padding-bottom: 5vh;
+}
+
+.country-info{
+    margin: 5vh 5vw;
+    width: 30vw;
+    height: 50vh;
+}
+
+.country img {
+    width: 10rem;
+    
+}
+.country-weather{
+    margin: 5vh 5vw;
+    width: 30vw;
+    height: 50vh;
+}
+
+.container{
+    position: relative;
+    min-height: 110vh
+}
+.footer {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .country{
+        display: flex;
+        flex-direction:column;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 5vh; 
+    }
+}
